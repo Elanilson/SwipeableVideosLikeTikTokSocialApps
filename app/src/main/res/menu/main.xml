@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_home_24"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Descobrir"
+        app:actionViewClass="android.widget.SearchView" ></item>
+    <item
+        android:icon="@drawable/ic_box_24"
+        android:title="grava" />
+    <item
+        android:icon="@drawable/ic_check_box_24"
+        android:title="Caixa de entrada" />
+    <item
+        android:icon="@drawable/ic_person_24"
+        android:title="Eu" />
+</menu>
